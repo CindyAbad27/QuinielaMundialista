@@ -155,7 +155,7 @@ function mostrarPronosticos(workbook, usuario) {
 
     html += `
         <p style="margin:10px 0 20px 0;">
-            🏆 <strong>Total de puntos calculados: ${totalPuntos}</strong>
+            🏆 <strong>Total de puntos: ${totalPuntos}</strong>
         </p>
     `;
     html += tabla;
