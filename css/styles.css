@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    padding:15px;
+    color:#1f2937;
+}
+
+header{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+header h1{
+    color:#086e36;
+    font-size:2rem;
+}
+
+header p{
+    color:#6b7280;
+    margin-top:5px;
+}
+
+section{
+    background:white;
+    border-radius:15px;
+    padding:15px;
+    margin-bottom:20px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+h2{
+    margin-bottom:15px;
+    color:#07829b;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#126c27;
+    color:white;
+    padding:10px;
+}
+
+td{
+    padding:10px;
+    border-bottom:1px solid #e5e7eb;
+    text-align:center;
+}
+
+tr:hover{
+    background:#f9fafb;
+}
+
+.top3{
+    display:grid;
+    gap:10px;
+}
+
+.tarjeta-top{
+    padding:15px;
+    border-radius:12px;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.1rem;
+}
+
+.oro{
+    background:#fff7cc;
+}
+
+.plata{
+    background:#f1f5f9;
+}
+
+.bronce{
+    background:#fce7d6;
+}
+
+#usuarios{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.usuario{
+    background:#44965a;
+    color:white;
+    padding:10px 15px;
+    border-radius:999px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.usuario:hover{
+    transform:scale(1.05);
+}
+
+#detalleUsuario{
+    overflow-x:auto;
+}
+
+.puntos-2{
+    color:green;
+    font-weight:bold;
+}
+
+.puntos-1{
+    color:#d97706;
+    font-weight:bold;
+}
+
+.puntos-0{
+    color:#dc2626;
+    font-weight:bold;
+}
+
+@media(min-width:768px){
+
+    body{
+        max-width:1200px;
+        margin:auto;
+    }
+
+    .top3{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+}
